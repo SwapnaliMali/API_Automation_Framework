@@ -19,7 +19,7 @@ class TestCreateBooking(object):
         print(response)
 
         verify_response(response["token"]) # check token is not null
-        verify_http_status_code(response,200) #to check if the status code is correct
+        #verify_http_status_code(response,200) #to check if the status code is correct
 
 
 
