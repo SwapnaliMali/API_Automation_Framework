@@ -1,0 +1,6 @@
+https://restful-booker.herokuapp.com/booking
+{'Content-Type': 'application/json'}
+{'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+<class 'requests.models.Response'>
+<Response [200]>
+Booking id 3841

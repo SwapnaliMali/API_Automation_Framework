@@ -3,7 +3,7 @@
 
 def common_headers_json():
     headers = {
-        "Content_type": "application/json"
+        'Content-Type': 'application/json'
     }
     return headers
 

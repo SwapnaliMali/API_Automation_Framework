@@ -13,9 +13,9 @@ def get_request(url, auth, in_json):
 
 
 def post_request(url, auth, headers, payload, in_json):
-    post_response = requests.post(url=url,headers=headers,auth=auth,data=json.dumps(payload))#to send full payload in json format
+    post_response = requests.post(url=url,headers=headers,auth=auth,data=payload)#to send full payload in json format
     if in_json is True:
-        return post_response.json()
+        return post_response
     return post_response
 
 
