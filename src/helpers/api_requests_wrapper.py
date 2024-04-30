@@ -19,6 +19,13 @@ def post_request(url, auth, headers, payload, in_json):
     return post_response
 
 
+def put_request(url, auth, headers, payload, in_json):
+    put_response = requests.put(url=url, auth=auth, headers=headers, data=payload)
+    if in_json is True:
+        return put_response
+    return put_response
+
+
 def patch_request(url, auth, headers, payload, in_json):
     patch_response = requests.patch(url=url, auth=auth, headers=headers, data=json.dumps(payload))
     if in_json is True:

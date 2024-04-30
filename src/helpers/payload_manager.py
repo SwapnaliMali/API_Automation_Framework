@@ -1,19 +1,19 @@
-
+import json
 def payload_create_booking():
     payload = {
 
-            "firstname": "Jim",
+            "firstname": "Henok",
             "lastname": "Brown",
-            "totalprice": 111,
+            "totalprice": 200,
             "depositpaid": True,
             "bookingdates": {
                 "checkin": "2018-01-01",
                 "checkout": "2019-01-01"
             },
-            "additionalneeds": "Breakfast"
+            "additionalneeds": "Lunch"
     }
 
-    return payload
+    return json.dumps(payload)
 
 
 def payload_create_token():
@@ -22,5 +22,5 @@ def payload_create_token():
             "username": "admin",
             "password": "password123"
     }
-    return payload
+    return json.dumps(payload)
 

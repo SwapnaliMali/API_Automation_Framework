@@ -32,3 +32,6 @@ jsonschema                4.21.1
 jsonschema-specifications 2023.12.1
 six                       1.16.0
 urllib3                   2.2.1
+
+#Command to run test cases parallel  ( using pyest-xdist)
+ pytest -n auto tests/Parallel/test_parallel.py

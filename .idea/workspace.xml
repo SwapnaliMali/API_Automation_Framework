@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e963dc4d-6fd5-4225-972c-4d77cf074ba6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/common_verifications.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verifications.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Integration_tests/test_create_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Integration_tests/test_create_booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Integration_tests/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Integration_tests/test_crud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc1.executor": "Run",
-    "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc2.executor": "Run",
-    "Python tests.Python tests for test_create_booking.Test_Create_Booking_API.executor": "Run",
-    "Python tests.Python tests for test_create_booking.Test_Create_Booking_API.test_create_booking.executor": "Run",
-    "Python tests.Python tests for test_crud.TestBooking_Crud.test_create_token.executor": "Run",
-    "Python tests.Python tests for test_crud_tc.test_crud.executor": "Run",
-    "Python tests.Python tests in test_crud.py.executor": "Run",
-    "Python tests.Python tests in test_crud_tc.py.executor": "Run",
-    "Python.common_verifications.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/API_Automation/API_Automation_Framework"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking.Test_Create_Booking_API.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_booking.Test_Create_Booking_API.test_create_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud.TestBooking_Crud.test_create_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud.TestBooking_Crud.test_create_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud.TestBooking_Crud.test_put_req.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud.TestBooking_Crud.test_update_booking.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_crud_tc.test_crud.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_crud.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_crud_tc.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.common_verifications.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/API_Automation/API_Automation_Framework&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_crud.TestBooking_Crud.test_create_token">
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_crud.TestBooking_Crud.test_update_booking">
     <configuration name="Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API_Automation_Framework" />
       <option name="ENV_FILES" value="" />
@@ -74,7 +76,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_crud.TestBooking_Crud.test_create_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API_Automation_Framework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,37 +87,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking.TestCreateBooking.test_create_booking_tc2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_create_booking.Test_Create_Booking_API" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="API_Automation_Framework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Integration_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking.Test_Create_Booking_API&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_create_booking.Test_Create_Booking_API.test_create_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="API_Automation_Framework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Integration_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking.Test_Create_Booking_API.test_create_booking&quot;" />
+      <option name="_new_target" value="&quot;test_crud.TestBooking_Crud.test_create_booking&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -134,13 +106,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_crud.TestBooking_Crud.test_put_req" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="API_Automation_Framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Integration_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_crud.TestBooking_Crud.test_put_req&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_crud.TestBooking_Crud.test_update_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="API_Automation_Framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Integration_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_crud.TestBooking_Crud.test_update_booking&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_crud.TestBooking_Crud.test_update_booking" />
+        <item itemvalue="Python tests.Python tests for test_crud.TestBooking_Crud.test_put_req" />
+        <item itemvalue="Python tests.Python tests for test_crud.TestBooking_Crud.test_create_booking" />
         <item itemvalue="Python tests.Python tests for test_crud.TestBooking_Crud.test_create_token" />
-        <item itemvalue="Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc2" />
         <item itemvalue="Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc1" />
-        <item itemvalue="Python tests.Python tests for test_create_booking.Test_Create_Booking_API.test_create_booking" />
-        <item itemvalue="Python tests.Python tests for test_create_booking.Test_Create_Booking_API" />
       </list>
     </recent_temporary>
   </component>
