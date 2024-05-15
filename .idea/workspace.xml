@@ -7,9 +7,6 @@
     <list default="true" id="e963dc4d-6fd5-4225-972c-4d77cf074ba6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Integration_tests/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Integration_tests/test_crud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,7 @@
     &quot;Python tests.Python tests for test_crud.TestBooking_Crud.test_put_req.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_crud.TestBooking_Crud.test_update_booking.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_crud_tc.test_crud.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_ddt.test_post_create_token.executor&quot;: &quot;Debug&quot;,
     &quot;Python tests.Python tests in test_crud.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_crud_tc.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.common_verifications.executor&quot;: &quot;Run&quot;,
@@ -60,22 +58,12 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/API_Automation/API_Automation_Framework&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_crud.TestBooking_Crud.test_update_booking">
-    <configuration name="Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="API_Automation_Framework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Integration_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking.TestCreateBooking.test_create_booking_tc1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\API_Automation\API_Automation_Framework\tests\datadriven" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_ddt.test_post_create_token">
     <configuration name="Python tests for test_crud.TestBooking_Crud.test_create_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API_Automation_Framework" />
       <option name="ENV_FILES" value="" />
@@ -136,13 +124,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_ddt.test_post_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="API_Automation_Framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/datadriven" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ddt.test_post_create_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_ddt.test_post_create_token" />
         <item itemvalue="Python tests.Python tests for test_crud.TestBooking_Crud.test_update_booking" />
         <item itemvalue="Python tests.Python tests for test_crud.TestBooking_Crud.test_put_req" />
         <item itemvalue="Python tests.Python tests for test_crud.TestBooking_Crud.test_create_booking" />
         <item itemvalue="Python tests.Python tests for test_crud.TestBooking_Crud.test_create_token" />
-        <item itemvalue="Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_tc1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,5 +166,26 @@
       <updated>1709040430164</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/datadriven/test_ddt.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/datadriven/test_ddt.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/datadriven/test_ddt.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
